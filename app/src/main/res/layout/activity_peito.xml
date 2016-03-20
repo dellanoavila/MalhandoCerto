@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.malhandocerto.malhandocerto.Peito">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitosupinoretocomhalter"
+                android:id="@+id/imageView12"
+                android:contentDescription="peitosupinoretocomhalter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | SUPINO RETO – HALTER
+
+Deitado em um banco horizontal, comece com os halteres no nível do tórax, palmas das mãos voltadas para a frente.
+Impulsione verticalmente os halteres, até que ocorra a extensão total dos cotovelos.
+Abaixe os halteres, retornando-os até a parte média do tórax."
+                android:id="@+id/textView12" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitosupinoretocombarra"
+                android:id="@+id/imageView36"
+                android:contentDescription="peitosupinoretocombarra" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | SUPINO RETO – BARRA
+
+Na posição deitada em um banco plano, faça uma pegada na barra com o dorso das mãos voltado para cima e o afastamento entre elas igual à distância entre os ombros.
+    Abaixe lentamente o peso até tocar a parte média do tórax.
+    Empurre a barra diretamente para cima, até que ocorra bloqueio dos cotovelos."
+                android:id="@+id/textView36" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitosupinoinclinadocomhalter"
+                android:id="@+id/imageView37"
+                android:contentDescription="peitosupinoinclinadocomhalter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | SUPINO INCLINADO COM HALTER
+
+Na posição sentada em um banco inclinado, comece com os halteres fixos no nível do tórax, com as palmas das mãos voltadas para a frente.
+Impulsione os halteres verticalmente, até que ocorra bloqueio dos cotovelos.
+Abaixe os halteres retornando à parte superior do tórax."
+                android:id="@+id/textView37" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitosupinoinclinadocombarra"
+                android:id="@+id/imageView38"
+                android:contentDescription="peitosupinoinclinadocombarra" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | SUPINO INCLINADO
+
+Para executar o Supino inclinado:
+Na posição sentada em um banco inclinado, faça uma pegada na barra com as palmas das mãos voltadas para cima e com afastamento na mesma distância dos ombros.
+Abaixe lentamente o peso, até que a barra toque a parte superior do tórax.
+Empurre a barra diretamente para cima, até que os cotovelos fiquem estendidos."
+                android:id="@+id/textView38" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitosupinodeclinado"
+                android:id="@+id/imageView39"
+                android:contentDescription="peitosupinodeclinado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Supino Declinado:
+Deite-se em um banco declinado e faça uma pegada na barra com o dorso das mãos voltado para cima e com afastamento igual à distância entre os ombros.
+Abaixe lentamente o peso até tocar a parte inferior do tórax.
+Empure a barra diretamente para cima, até que ocorra extensão total dos cotovelos."
+                android:id="@+id/textView39" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitoparalela"
+                android:id="@+id/imageView40"
+                android:contentDescription="peitoparalela" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | PARALELA
+
+Para executar a Paralela:
+Agarre as barras paralelas, sustentando o corpo com os cotovelos estendidos e bloqueados.
+Dobre os cotovelos, baixando o torso até que os braços fiquem paralelos ao chão.
+Empurre o corpo de volta a posição inicial, isto é, até que seus cotovelos fiquem novamente estendidos."
+                android:id="@+id/textView40" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitoocrucifixoinclinadocomhalter"
+                android:id="@+id/imageView41"
+                android:contentDescription="peitoocrucifixoinclinadocomhalter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | CRUCIFIXO INCLINADO
+
+Para executar o Crucifixo Inclinado:
+Sentado em um banco inclinado, comece com os halteres diretamente acima do tórax, com as palmas das mãos voltadas para dentro.
+Abaixe os halteres para fora, dobrando ligeiramente os cotovelos enquanto os pesos descem até o nível do tórax.
+Levante os halteres de volta, unindo-os na parte superior do exercício."
+                android:id="@+id/textView41" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitocrucifixodeclinadocomhalter"
+                android:id="@+id/imageView42"
+                android:contentDescription="peitocrucifixodeclinadocomhalter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | CRUCIFIXO DECLINADO
+
+Para executar o crucifixo declinado:
+Deitado em um banco declinado, comece com os halteres diretamente acima de seu tórax, com as palmas das mãos voltadas para dentro.
+Abaixe os halteres com um movimento de abertura (para fora), dobrando ligeiramente os cotovelos durante a descida dos pesos até o nível do tórax.
+Leva simultaneamente os halteres de volta à posição inicial, até se tocarem."
+                android:id="@+id/textView42" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/peitocruzamentodecabos"
+                android:id="@+id/imageView43"
+                android:contentDescription="peitocruzamentodecabos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | CROSSOVER
+
+Para executar o crossover:
+Na posição em pé, segure os pegadores presos às polias altas de um aparelho de cabos.
+Tracione simultaneamente para baixo os pegadores, até que as mãos se toquem a frente da cintura; mantenha os cotovelos ligeiramente dobrados.
+Lentamente, retorne à posição inicial com as mãos no nível dos ombros."
+                android:id="@+id/textView43" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

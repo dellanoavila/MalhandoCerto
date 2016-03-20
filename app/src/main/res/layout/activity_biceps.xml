@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.malhandocerto.malhandocerto.Biceps">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/broscainvertida"
+                android:contentDescription="broscainvertida"
+                android:id="@+id/imageView13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | ROSCA INVERTIDA
+
+Para executar o Rosca invertida:
+Segure a barra do halter com os braços estendidos; use uma pegada com o dorso das mãos voltados para cima e com afastamento igual à distância entre os ombros.
+Eleve a barra até o nível dos ombros, rosqueando os punhos para cima e para trás enquanto flexiona os cotovelos.
+Abaixe a barra até a posição de braços estendidos, deixando que os punhos “caiam”."
+                android:id="@+id/textView13" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/broscamartelo"
+                android:contentDescription="broscamartelo"
+                android:id="@+id/imageView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO |ROSCA MARTELO
+
+Para executar o Rosca martelo:
+Segure um halter fixo em cada mão com as palmas voltadas para dentro (polegares apontando para frente).
+Levante um halter de cada vez até o ombro, mantendo as palmas das mãos voltadas para dentro.
+Abaixe o halter de volta à posição de braço estendido e repita com o outro braço."
+                android:id="@+id/textView14" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/broscacomcabo"
+                android:contentDescription="broscacomcabo"
+                android:id="@+id/imageView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | ROSCA COM CABO
+
+Para executar o Rosca com cabo:
+Segure a barra curta presa a uma polia baixa, utilizando uma pegada com o dorso das mãos voltado para baixo e com os braços estendidos.
+Levante a barra na direção dos ombros, flexionando os cotovelos.
+Abaixe o peso de volta à posição inicial, braços na posição estendida."
+                android:id="@+id/textView15" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/broscaconcentrada"
+                android:contentDescription="broscaconcentrada"
+                android:id="@+id/imageView16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar a Rosca Concentrada:
+Posição sentada na extremidade do banco. Segure o halter fixo com o braço estendido; apoie o braço contra a parte interna da coxa.
+Faça o exercício de rosca com halter na direção do ombro, flexionando o cotovelo.
+Abaixe o halter de volta a posição inicial."
+                android:id="@+id/textView16" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/broscadiretacombarra"
+                android:contentDescription="broscadiretacombarra"
+                android:id="@+id/imageView17" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar a Rosca direta com barra:
+Segure a barra com os braços estendidos; pegada com afastamento igual à distancia entre os ombros e com o dorso das mãos voltado para baixo.
+Leve a barra até o nível dos ombros; para tanto, flexione os cotovelos.
+Abaixe a barra de volta à posição inicial, com os braços na posição estendida."
+                android:id="@+id/textView17" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/broscadiretacomhalter"
+                android:contentDescription="broscadiretacomhalter"
+                android:id="@+id/imageView18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | ROSCA DIRETA COM HALTER
+
+Segure um par de halteres à distancia do braços estendido, um de cada lado do corpo, com os polegares apontando para frente.
+Movimentando um braço de cada vez, movimente o halter para cima, na direção do ombro, girando a mão de modo que a palma fique voltada para cima.
+Abaixe o halter e repita com o outro braço."
+                android:id="@+id/textView18" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/broscanoaparelho"
+                android:contentDescription="broscanoaparelho"
+                android:id="@+id/imageView19" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Rosca no aparelho:
+Segure a barra usando uma pegada com o dorso das mãos voltado para baixo e na largura dos ombros, com os cotovelos repousando na almofada e braços retos, voltados para fora.
+Tracione a barra na direção dos ombros, flexionando os cotovelos
+Retorne a barra à posição de braços estendidos."
+                android:id="@+id/textView19" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/broscascott"
+                android:contentDescription="broscascott"
+                android:id="@+id/imageView20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | ROSCA SCOTT
+
+Para executar o Rosca Scott:
+Sente-se com os braços repousando no banco de Scott e faça a pegada na barra com o dorso das mãos voltado para baixo e na mesma distancia dos ombros; braços retos, voltados para fora.
+Flexionando os cotovelos, movimente a barra na direção dos ombros.
+Abaixe o peso de volta à posição com os braços estendidos."
+                android:id="@+id/textView20" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

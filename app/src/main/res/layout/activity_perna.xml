@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.malhandocerto.malhandocerto.Perna">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/plegpress"
+                android:id="@+id/imageView47"
+                android:contentDescription="plegpress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Sente-se no aparelho de leg press e coloque os pés com afastamento na plataforma igual à largura dos ombros.
+Lentamente, abaixe o peso até que os joelhos estejam com 90 graus de flexão.
+Empurre o peso de volta à posição inicial; para isso, estenda as pernas."
+                android:id="@+id/textView47" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/pextensaodepernas"
+                android:contentDescription="pextensaodepernas"
+                android:id="@+id/imageView48" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | EXTENSÃO DE PERNAS
+
+Para executar o Extensão de pernas:
+Sente-se no aparelho e coloque os pés por baixo dos rolos.
+Levante as pernas para cima, até que os joelhos estejam estendidos.
+Abaixe as pernas de volta à posição inicial, com os joelhos dobrados em 90 graus."
+                android:id="@+id/textView48" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/pagachamentohack"
+                android:contentDescription="pagachamentohack"
+                android:id="@+id/imageView49" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Posicione as costas contra o encosto e os ombros por baixo dos rolos almofadados e fique em pé com os pés afastados na largura dos ombros sobre a plataforma, com os dedos apontando para frente.
+Abaixe lentamente o peso, flexionando os joelhos até 90 graus.
+Empurre o peso de volta à posição inicial, estendendo as pernas."
+                android:id="@+id/textView49" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/pagachamentolivrecombarra"
+                android:contentDescription="pagachamentolivrecombarra"
+                android:id="@+id/imageView50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | AGACHAMENTO LIVRE
+
+No Agachamento livre:
+Em pé com a barra apoiada nos ombros e os pés afastados em distância igual à largura dos ombros.
+Flexione lentamente os joelhos até que as coxas fiquem paralelas ao chão.
+Estenda as pernas para retornar à posição inicial (em pé)."
+                android:id="@+id/textView50" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/pafundo"
+                android:contentDescription="pafundo"
+                android:id="@+id/imageView51" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Em pé com os pés afastados na largura dos ombros; segure dois halteres fixos com os braços estendidos ao lado do corpo.
+Dê um passo para frente e flexione o joelho até que a coxa da perna que avançou esteja paralela com o chão.
+Retorne à posição inicial e repita, usando a outra perna."
+                android:id="@+id/textView51" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/plevantamentostiff"
+                android:contentDescription="plevantamentostiff"
+                android:id="@+id/imageView52" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | LEVANTAMENTO STIFF
+
+No Levantamento Stiff:
+Fique em pé e mantenha o corpo ereto, com os pés diretamente abaixo dos quadris, segurando uma barra com os braços estendidos.
+Incline-se para a frente (use a cintura) abaixando o peso, mas mantendo as pernas estendidas.
+Pare antes que o peso toque o chão e volte a levantá-lo."
+                android:id="@+id/textView52" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/pflexaodepernasempe"
+                android:contentDescription="pflexaodepernasempe"
+                android:id="@+id/imageView53" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Flexão de pernas em pé:
+Coloque um calcanhar por baixo do rolo almofadado e apoie o peso com a outra perna.
+Levante o peso dobrando o joelho e elevando o calcanhar na direção da nádega.
+Abaixe o peso de volta a posição inicial.."
+                android:id="@+id/textView53" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/pflexaodepernasdeitado"
+                android:contentDescription="pflexaodepernasdeitado"
+                android:id="@+id/imageView54" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Flexão de pernas deitado:
+Deite-se de bruços sobre o aparelho e enganche os calcanhares por baixo dos rolos almofadados.
+Levante o peso dobrando os joelhos e eleve os calcanhares na direção das nádegas.
+Abaixe o peso de volta à posição inicial."
+                android:id="@+id/textView54" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/panturrilhaempe"
+                android:contentDescription="panturrilhaempe"
+                android:id="@+id/imageView55" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | PANTURRILHA EM PÉ
+
+Para executar o Panturrilha em pé:
+Fique em pé com os dedos dos pés sobre a plataforma e os ombros por baixo das almofadas; abaixe os calcanhares o máximo possível, para obtenção de um alongamento completo.
+Levante o peso elevando os calcanhares até onde for possível, mantendo as pernas estendidas.
+Abaixe lentamente os calcanhares, de volta à posição inicial."
+                android:id="@+id/textView55" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/panturrilhanoaparelho"
+                android:contentDescription="panturrilhanoaparelho"
+                android:id="@+id/imageView56" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Panturrilha no leg press:
+Coloque as bolas dos pés sobre a borda da plataforma (como em um aparelho de leg press) e abaixe o peso o máximo possível.
+Empurre o peso para cima até onde puder, contraindo os músculos da panturrilha.
+Abaixe lentamente o peso até a posição inicial."
+                android:id="@+id/textView56" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/pelevacaonapontadospes"
+                android:contentDescription="pelevacaonapontadospes"
+                android:id="@+id/imageView57" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para realizar a Elevação na ponta dos pés:
+Coloque os dedos dos pés sobre um bloco, incline-se para a frente e apoie o torso no banco; abaixe os calcanhares o máximo possível.
+Levante o peso pela elevação dos calcanhares o máximo possível, mantendo as pernas estendidas.
+Abaixe lentamente os calcanhares até a posição inicial."
+                android:id="@+id/textView57" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

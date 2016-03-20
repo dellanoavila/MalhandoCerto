@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.malhandocerto.malhandocerto.Ombro">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/olevantamentolateralcomcabocablelateralraise"
+                android:contentDescription="olevantamentolateralcomcabocablelateralraise"
+                android:id="@+id/imageView28" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar a Elevação Lateral Cabo:
+Com uma das mãos, agarre o pegador preso a uma polia baixa.
+Levante a mão para fora, fazendo um arco amplo, até o nível do ombro, mantendo o cotovelo rígido.
+Abaixe o cabo de volta no nível da cintura."
+                android:id="@+id/textView28" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/olevantamentolateralcomhalter"
+                android:contentDescription="olevantamentolateralcomhalter"
+                android:id="@+id/imageView29" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | ELEVAÇÃO LATERAL HALTER
+
+ Para executar a Elevação Lateral Halter:
+ Na posição em pé ereta, segure os halters com os braços estendidos.
+ Levante os braços para fora e para os lados do corpo, até que os halteres atinjam o nível dos ombros.
+ Abaixe os halteres de volta para os quadris."
+                android:id="@+id/textView29" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/olevantamentofrontalcomcabo"
+                android:contentDescription="olevantamentofrontalcomcabo"
+                android:id="@+id/imageView30" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Levantamento Frontal com Cabo:
+Com uma das mãos, segure o pegador preso a uma polia baixa, utilizando uma pegada pronada (palma das mãos para baixo).
+Virado de costas para a pilha de pesos, levante o cabo em um arco ascendente até o nível do ombro, mantendo o cotovelo rígido.
+Abaixe o cabo de volta até o nível da cintura."
+                android:id="@+id/textView30" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/odesenvolvimentocomhalter"
+                android:contentDescription="odesenvolvimentocomhalter"
+                android:id="@+id/imageView31" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Sentado em um banco, comece com os halteres fixos no nível do ombro, palmas das mãos voltadas para frente.
+Impulsione verticalmente para cima os halteres, até que ocorra bloqueio dos cotovelos.
+Abaixe os halteres de volta, até tocarem os ombros."
+                android:id="@+id/textView31" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/olevantamentolateraldehalterescorpoinclinadoprafrente"
+                android:contentDescription="olevantamentolateraldehalterescorpoinclinadoprafrente"
+                android:id="@+id/imageView32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+ Segurando dois halteres com os braços estendidos, incline o corpo para a frente usando a cintura, mantendo as costas retas e a cabeça levantada.
+Com as palmas das mãos voltadas para dentro, levante os halteres para cima até o nível das orelhas, mantendo os cotovelos ligeiramente dobrados.
+Abaixe os halteres de volta à posição inicial."
+                android:id="@+id/textView32" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/ocruzamentodecaboscominversao"
+                android:contentDescription="ocruzamentodecaboscominversao"
+                android:id="@+id/imageView33" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | CROSSOVER INVERTIDO
+
+Para executar o Crossover Invertido:
+Utilizando uma pegada com os polegares apontando para cima, segure os pegadores presos a duas polias altas (pegador esquerdo na mão direita, pegador direito na mão esquerda), fique de pé em posição central, com as polias à sua frente. (Atenção: durante o cruzamento dos cabos para o tórax, as polias ficam atrás de seu corpo.)
+Impulsione as mãos para trás (e ligeiramente para baixo) em um arco, com os braços praticamente paralelos ao chão até que as mãos estejam alinhadas com os ombros (formando um T).
+Retorne os pegadores de volta à posição inicial, de modo que a mão direita fique diretamente à frente do ombro esquerdo, e a mão esquerda diretamente à frente do ombro direito."
+                android:id="@+id/textView33" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/ocrucifixoinvertidonoaparelho"
+                android:contentDescription="ocrucifixoinvertidonoaparelho"
+                android:id="@+id/imageView34" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Crucifixo invertido aparelho:
+Sente-se de frente para o aparelho com o peito contra o encosto do banco e pegue os pegadores com o braço estendido ao nível do ombro.
+Puxe os pegadores para trás no arco mais distante possível, mantendo os cotovelos elevados e braços paralelos ao chão.
+Retorne os pegadores à posição inicial, diretamente à frente."
+                android:id="@+id/textView34" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/oremadaempecombarra"
+                android:contentDescription="oremadaempecombarra"
+                android:id="@+id/imageView35" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | REMADA ALTA
+
+Segure o halter comi os braços estendidos; use uma pegada com o dorso das mãos voltado para cima, braços afastados na largura dos ombros.
+Tracione a barra do haltere verticalmente para cima, levantando os cotovelos até a altura do ombro.
+Abaixe lentamente a barra até a posição de braços estendidos."
+                android:id="@+id/textView35" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

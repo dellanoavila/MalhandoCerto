@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Abdomen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/abdominal"
+                android:contentDescription="abdominal"
+                android:id="@+id/imageView"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Coloque os pés embaixo da almofada e sente no banco declinado com o torso ereto.
+Abaixe o torso para trás até que fique praticamente paralelo ao chão.
+Retorna a posição vertical, dobrando na cintura."
+                android:id="@+id/textView" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/abdominalgrupado"
+                android:contentDescription="abdominalgrupado"
+                android:id="@+id/imageView2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO – ABDOMINAL GRUPADO
+
+Deite-se de costas no chão, com os quadris dobrados a 90 graus e as mãos atrás da cabeça.
+Eleve os ombros do chão, comprimindo o peito para frente e mantendo a região lombar em contato com o chão.
+Abaixe os ombros de volta à posição inicial."
+                android:id="@+id/textView2" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/abagrupadocomaparelho"
+                android:contentDescription="abagrupadocomaparelho"
+                android:id="@+id/imageView3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para realizar o Abdominal grupado com aparelho:
+Sente-se no assento, segure os pegadores e coloque os pés sob os rolos de tornozelo.
+Faça o abdominal inclinando o torso na direção dos joelhos.
+Retorne a posição vertical."
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/abdomigrcorda"
+                android:id="@+id/imageView4"
+                android:contentDescription="abdomigrcorda" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO – ABDOMINAL GRUPADO COM CORDA
+
+Para executar o Abdominal grupado com corda:
+Ajoelhe no chão embaixo de uma polia alta e segure a corda com as duas mãos, atrás da cabeça.
+Puxe o peso para baixo, encurvando o torso e inclinando a cintura.
+Retorne a posição inicial."
+                android:id="@+id/textView4" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/abdogrupnvertido"
+                android:contentDescription="abdogrupnvertido"
+                android:id="@+id/imageView5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO – ABDOMINAL GRUPADO INVERTIDO
+
+Para executar o Abdominal grupado invertido, deite-se em um banco horizontal, posicione os pés de modo a fazer 90 graus com os joelhos e quadris e agarre o banco atrás da cabeça para apoio.
+Levante a pelve (afastando-a do banco) até que os pés apontem para o teto.
+Abaixe as pernas de volta para posição inicial."
+                android:id="@+id/textView5" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/abdominagruobli"
+                android:contentDescription="abddominagruobli"
+                android:id="@+id/imageView6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Abdominal grupado oblíquo:
+Deite-se sobre o lado esquerdo, joelhos dobrados e juntos, mão direita atrás da cabeça.
+Levante lentamente o torso, contraindo os oblíquos do lado direito.
+Abaixe o torso até a posição inicial."
+                android:id="@+id/textView6" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/aelevacaopernainclinado"
+                android:contentDescription="aelevacaopernainclinado"
+                android:id="@+id/imageView7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Abdominal grupado oblíquo:
+Deite-se sobre o lado esquerdo, joelhos dobrados e juntos, mão direita atrás da cabeça.
+Levante lentamente o torso, contraindo os oblíquos do lado direito.
+Abaixe o torso até a posição inicial."
+                android:id="@+id/textView7" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/aelevacaodepernasnabarra"
+                android:contentDescription="aelevacaodepernasnabarra"
+                android:id="@+id/imageView8"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar o Elevação de pernas na barra:
+Pendure-se com as mãos em uma barra, ou coloque os cotovelos em um par de AB Slings (protetores que se prendem à barra para sustentar o peso do corpo); as pernas ficam livremente pendentes.
+Levante simultaneamente os joelhos, ligeiramente dobrados, na direção do peito.
+Abaixe lentamente as pernas de volta à posição inicial, sem balançar."
+                android:id="@+id/textView8" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/aelevacoodejoelhos"
+                android:contentDescription="aelevacoodejoelhos"
+                android:id="@+id/imageView9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO – ELEVAÇÃO DE JOELHOS
+
+Para executar a elevação de joelhos:
+Sente-se na extremidade de um banco horizontal, com as pernas pendendo e os joelhos ligeiramente dobrados, e agarre o banco atrás de você.
+Levante os joelhos na direção do peito, mantendo as pernas juntas.
+Abaixe as pernas, até que os calcanhares praticamente toquem o chão."
+                android:id="@+id/textView9" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/ainclinacaolateralcomhalter"
+                android:contentDescription="ainclinacaolateralcomhalter"
+                android:id="@+id/imageView10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar a Inclinação lateral com halter:
+Fique em pé, segurando um halter na mão esquerda; coloque a mão direita atrás da cabeça.
+Dobre o torso para o lado esquerdo, abaixando o halter na direção do joelho.
+Faça com que o torso fique novamente ereto, contraindo os músculos oblíquos direitos."
+                android:id="@+id/textView10" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/apullover"
+                android:contentDescription="apullover"
+                android:id="@+id/imageView11"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO – PULLOVER
+
+Deite-se com a parte superior das costas repousando transversalmente em um banco horizontal; segure um halter fixo diretamente acima de seu tórax.
+Movimente o halter para baixo e para trás, até atingir o nível do banco, inspirando profundamente e alongando o gradil costal.
+Retorne o peso até a posição vertical, expirando ao fazê-lo."
+                android:id="@+id/textView11" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

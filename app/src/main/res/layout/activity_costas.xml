@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.malhandocerto.malhandocerto.Costas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/cremadabaixasentado"
+                android:contentDescription="cremadabaixasentado"
+                android:id="@+id/imageView21" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+
+Para executar a remada baixa sentado:
+Segure os pegadores presos aos cabos com os braços estendidos à frente.
+Tracione os pegadores superiormente, na direção do peito, mantendo a coluna vertebral reta.
+Retorne os pegadores à posição inicial."
+                android:id="@+id/textView21" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/cbarra"
+                android:contentDescription="cbarra"
+                android:id="@+id/imageView22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO -
+                Flexões de braço na barra são semelhantes ao puxador, exceto que a resistência é proporcionada pelo peso do próprio corpo. Basicamente, flexões na barra utilizam a adução do ombro e, portanto, tendem a trabalhar os latíssimos externos, resultando em costas mais largas. Tente não “gangorrar” ao subir."
+                android:id="@+id/textView22" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/cpuxadorpegadaaberta"
+                android:contentDescription="cpuxadorpegadaaberta"
+                android:id="@+id/imageView23" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | PUXADOR FRONTAL ABERTO
+
+Para executar o Puxador Frontal Aberto:
+Faça uma pegada na barra com o dorso das mãos voltado para cima; as mãos devem ficar a uma distância 15cm maior que a largura dos ombros.
+Tracione a barra para baixo, até a parte superior do peito, contraindo os latíssimos.
+Retorne a barra à posição inicial, acima da cabeça."
+                android:id="@+id/textView23" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/cpuxadorpegadafechada"
+                android:contentDescription="cpuxadorpegadafechada"
+                android:id="@+id/imageView24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | PUXADOR FRONTAL FECHADO
+
+Para executar o Puxador Frontal Fechado:
+Faça uma pegada na barra com o dorso das mãos voltado para frente (invertido) com as mãos espaçadas em 15 a 30cm.
+Tracione a barra para baixo até a parte superior do peito, tensionando os latíssimos.
+Retorne a barra à posição inicial, com os braços estendidos acima da cabeça."
+                android:id="@+id/textView24" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/cremadaarticulada"
+                android:contentDescription="cremadaarticulada"
+                android:id="@+id/imageView25" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | REMADA ARTICULADA
+
+Para executar a Remada Articulada:
+Segure os pegadores com os braços estendidos à frente, apoiando o torso contra a almofada peitoral.
+Tracione os pegadores na direção da parte superior do abdome, mantendo a coluna vertebral reta.
+Retorne o peso à posição inicial."
+                android:id="@+id/textView25" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/cremadacurvada"
+                android:contentDescription="cremadacurvada"
+                android:id="@+id/imageView26" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | REMADA CURVADA
+
+Para executar a Remada Curvada:
+Fazendo uma pegada na barra com espaçamento igual à largura dos ombros e com o dorso das mãos voltado para cima, incline o torso para a frente em um ângulo de 45 graus com o chão.
+Tracione a barra verticalmente para cima, até que ela toque a parte inferior do peito, mantendo a coluna vertebral reta e os joelhos ligeiramente dobrados.
+Abaixe a barra até a posição de braços estendidos."
+                android:id="@+id/textView26" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:src="@drawable/cremadaserrador"
+                android:contentDescription="cremadaserrador"
+                android:id="@+id/imageView27" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EXECUÇÃO | REMADA SERRADOR
+
+Para executar a remada serrador:
+Segure um halter fixo com a palma voltada para dentro. Repouse a outra mão e o joelho sobre um banco, mantendo a coluna vertebral reta e praticamente paralela ao chão.
+Movimente o halter verticalmente para cima ao longo do torso, levantando o cotovelo até o nível mais alto possível.
+Abaixe o halter até a posição inicial."
+                android:id="@+id/textView27" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
